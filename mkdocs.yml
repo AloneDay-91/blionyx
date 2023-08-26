@@ -1,0 +1,62 @@
+site_name: Blionyx Tailwindcss
+repo_url: https://github.com/AloneDay-91/blionyx
+repo_name: Blionyx Tailwindcss
+nav:
+  - Introduction: index.md
+  - Tutorial: start.md
+theme:
+  name: material
+  features:
+    - navigations.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.instant
+  language: en
+  palette:
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AloneDay-91
+      name: Github
+    - icon: material/email
+      link: "mailto:contact@blionyx.com"
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/AloneDay-91" target="_blank" rel="noopener">Blionyx</a>
